@@ -23,6 +23,11 @@ const styles = theme => ({
   }
 });
 
+const heatMap = {
+  positions: [{ lat: 43.772, lng: -79.5019 }],
+  options: { radius: 20, opacity: 0.6 }
+};
+
 const AnyReactComponent = ({ text, classes }) => (
   <div className={classes.root1}>{text}</div>
 );
@@ -33,6 +38,8 @@ const Maps = ({ center, zoom, text, classes }) => {
       <GoogleMapReact
         defaultCenter={center}
         defaultZoom={zoom}
+        heatmapLibrary={true}
+        heatmap={heatMap}
         bootstrapURLKeys={{
           key: MAPS_API
         }}

@@ -203,7 +203,7 @@ MiniDrawer.propTypes = {
   classes: PropTypes.object.isRequired,
   theme: PropTypes.object.isRequired,
   backgroundColor: PropTypes.string,
-  togglebackgroundColor: PropTypes.func
+  toggleBackgroundColor: PropTypes.func
 };
 
 export default withStyles(styles, { withTheme: true })(
