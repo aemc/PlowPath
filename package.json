@@ -10,7 +10,7 @@
     "format": "prettier --write 'src/**/*.js'"
   },
   "dependencies": {
-    "@material-ui/core": "^3.9.2",
+    "@material-ui/core": "^3.9.4",
     "@material-ui/icons": "^3.0.2",
     "classnames": "^2.2.6",
     "enzyme": "^3.9.0",
